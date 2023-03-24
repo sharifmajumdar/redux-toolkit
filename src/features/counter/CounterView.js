@@ -8,7 +8,7 @@ const CounterView = () => {
 
     return (
         <div>
-            <h1>Hello from Counter View</h1>
+            <h1>Counter App</h1>
             <p>Count: { count }</p>
             <button onClick={ () => dispatch(increment()) }>Increment</button>
             <button onClick={ () => dispatch(decrement()) }>Decrement</button>
